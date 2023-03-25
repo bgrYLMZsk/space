@@ -1,0 +1,12 @@
+Proje 2
+
+        Binary Search Projesi
+        
+        [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]  ==> Binary bu sayı topluluğunu kendiliğinden sıralı ilan eder ve bu ifadeleri [0,1,2,3,4,5,6,7,8,9]' a çevrilmiş kabul eder.
+        
+        ==> Root = 5 dir
+        
+        ==> Root(5) in sağında kendisinden büyük olan (6,7,8,9), solunda ise kendisinden küçük olan (0,1,2,3,4) bulunur.
+        
+        ==> Yeni bir eleman linklenerek eklenmek istenirse Root'a büyüktür küçüktür sorusu sorularak işlem yapılır.
+        
