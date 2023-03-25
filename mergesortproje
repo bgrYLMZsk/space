@@ -1,0 +1,20 @@
+Proje 2
+
+        Merge Sort Projesi
+        
+        [16,21,11,8,12,22] -> Merge Sort
+        
+        Merge Sort= İki gruba ayırarak inceleme yapar ve her seferinde gruplara ayırır ve tek eleman kalıncaya kadar bu işleme devam eder. Bu nedenle kaç sefer bölüneceğini 2^x =n şeklinde gösterebiliriz.
+        
+        
+         ==> [16,21,11]  [8,12,22]
+         ==> [16,21] [11]  [8,12] [22]
+         ==> [16] [21] [11] [8] [12] [22]  (Buraya kadar tek eleman kalana kadar böler buradan sonra ise ikişerli grupları sıralayarak devam eder.)
+         ==> [16,21] [8,11] [12,22]
+         ==> [8,16,21] [11,12,22]
+         ==> [8,11,12,16,22]
+         
+         (Sıralama yaparak tekrar sayıları gruplandırmış olduk)
+         
+         Big-O= Her seferinde ikiye bölerek aşağıya doğru indiğimiz için 'n' işlemini '2^x' kadar yani 'log(n)' kadar yapmış oluruz.
+         
